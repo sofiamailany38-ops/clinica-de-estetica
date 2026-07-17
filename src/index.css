@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Montserrat", sans-serif;
+  
+  --color-luxury-red-50: #fdf3f4;
+  --color-luxury-red-100: #fbe6e8;
+  --color-luxury-red-200: #f7ced2;
+  --color-luxury-red-300: #f0a3ab;
+  --color-luxury-red-400: #e4717f;
+  --color-luxury-red-500: #d14354;
+  --color-luxury-red-600: #b4293a;
+  --color-luxury-red-700: #931c2b;
+  --color-luxury-red-800: #741a25; /* Vinho / Marsala */
+  --color-luxury-red-900: #4c0e17; /* Burgundy */
+  --color-luxury-red-950: #2e050a; /* Deep charcoal burgundy */
+
+  --color-luxury-gold-50: #faf8f2;
+  --color-luxury-gold-100: #f4edd9;
+  --color-luxury-gold-200: #e9dbb3;
+  --color-luxury-gold-300: #dac184;
+  --color-luxury-gold-400: #c9a358;
+  --color-luxury-gold-500: #b38b3c; /* Elegant metallic gold */
+  --color-luxury-gold-600: #97712e;
+  --color-luxury-gold-700: #795724;
+  --color-luxury-gold-800: #5c411b;
+  --color-luxury-gold-900: #422e14;
+  --color-luxury-gold-950: #24190a;
+}
+
+/* Base resets to fit luxury theme */
+body {
+  background-color: var(--color-luxury-red-950);
+  color: var(--color-luxury-gold-50);
+  font-family: var(--font-sans);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-luxury-red-950);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-luxury-gold-700);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-luxury-gold-500);
+}

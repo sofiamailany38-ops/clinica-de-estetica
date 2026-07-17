@@ -1,0 +1,6 @@
+{
+  "name": "Éclat Beauty Clinic",
+  "description": "Site profissional de alto padrão para a Éclat Beauty Clinic, clínica brasileira de estética premium com agendamento online e visual sofisticado.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
